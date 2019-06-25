@@ -22,7 +22,7 @@ static const char popoverAnimatorKey;
 }
 
 
-- (void)LEGO_bottomPresentController:(UIViewController *)vc presentedHeight:(CGFloat)height completeHandle:(LEGOCompleteHandle)completion{
+- (void)lg_bottomPresentController:(UIViewController *)vc presentedHeight:(CGFloat)height completeHandle:(LEGOCompleteHandle)completion{
     self.popoverAnimator = [LEGOPopoverAnimator popoverAnimatorWithStyle:LEGOPopoverTypeActionSheet completeHandle:completion];
     
     vc.modalPresentationStyle = UIModalPresentationCustom;
@@ -32,7 +32,7 @@ static const char popoverAnimatorKey;
     [self presentViewController:vc animated:YES completion:nil];
 }
 
-- (void)LEGO_centerPresentController:(UIViewController *)vc presentedSize:(CGSize)size completeHandle:(LEGOCompleteHandle)completion{
+- (void)lg_centerPresentController:(UIViewController *)vc presentedSize:(CGSize)size completeHandle:(LEGOCompleteHandle)completion{
     self.popoverAnimator = [LEGOPopoverAnimator popoverAnimatorWithStyle:LEGOPopoverTypeAlert completeHandle:completion];
     [self.popoverAnimator setCenterViewSize:size];
 
