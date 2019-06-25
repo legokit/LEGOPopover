@@ -1,0 +1,6 @@
+framework module LEGOPopover {
+  umbrella header "LEGOPopover-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,23 @@
+PODS:
+  - LEGOCoreKit/LGPrefix (0.1.0)
+  - LEGOPopover (0.1.0):
+    - LEGOCoreKit/LGPrefix
+
+DEPENDENCIES:
+  - LEGOPopover (from `../`)
+
+SPEC REPOS:
+  https://github.com/legokit/Specs.git:
+    - LEGOCoreKit
+
+EXTERNAL SOURCES:
+  LEGOPopover:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LEGOCoreKit: ad96604068561dcc6a96ded734ae637462b319a2
+  LEGOPopover: d9bc2d134c717d13da88b0425d43719490114b55
+
+PODFILE CHECKSUM: 5c917047d7bea15bbe21eec5419f59a01f13de55
+
+COCOAPODS: 1.6.1

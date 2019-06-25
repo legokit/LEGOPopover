@@ -1,0 +1,16 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/legokit/Specs.git'
+
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LEGOPopover_Example' do
+  pod 'LEGOPopover', :path => '../'
+
+  target 'LEGOPopover_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

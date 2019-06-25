@@ -1,0 +1,27 @@
+{
+  "name": "LEGOPopover",
+  "version": "0.1.0",
+  "summary": "A short description of LEGOPopover.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/legokit/LEGOPopover",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "564008993@qq.com": "564008993@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/legokit/LEGOPopover.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LEGOPopover/Classes/**/*",
+  "dependencies": {
+    "LEGOCoreKit/LGPrefix": [
+
+    ]
+  }
+}
