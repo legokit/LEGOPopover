@@ -29,7 +29,7 @@
         _titleLabel.font = self.parameter.titleFont;
         _titleLabel.textColor = self.parameter.titleColor;
         if (self.parameter.titleAttriString) {
-            _titleLabel.text = self.parameter.titleAttriString;
+            _titleLabel.attributedText = self.parameter.titleAttriString;
         }
         else {
             _titleLabel.text = self.parameter.title;
@@ -48,7 +48,7 @@
             _detailLabel.attributedText = self.parameter.detailAttriString;
         }
         else {
-            _detailLabel.attributedText = self.parameter.detail;
+            _detailLabel.text = self.parameter.detail;
         }
     }
     return _detailLabel;
