@@ -10,9 +10,11 @@
 #endif
 #endif
 
+#import "LEGOAlertView.h"
 #import "LEGOPopoverAnimator.h"
 #import "LEGOPopoverMacro.h"
 #import "LEGOPresentationController.h"
+#import "LGAlertGlobalParameter.h"
 #import "UIViewController+LEGOPopover.h"
 
 FOUNDATION_EXPORT double LEGOPopoverVersionNumber;
