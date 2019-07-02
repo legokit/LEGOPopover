@@ -91,13 +91,13 @@
     [self.detailLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.offset(36);
         make.right.offset(-36);
-        make.top.mas_equalTo(self.titleLabel.mas_bottom).offset(24);
+        make.top.mas_equalTo(self.titleLabel.mas_bottom).offset(18.5);
     }];
     
     [self.view addSubview:self.cancelButton];
     [self.cancelButton mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.offset(36);
-        make.bottom.offset(-(55 + LEGOBottomMargin));
+        make.centerY.mas_equalTo(self.view.mas_bottom).offset(-(63 + LEGOBottomMargin));
     }];
     
     [self.view addSubview:self.completButton];
