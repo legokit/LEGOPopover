@@ -13,7 +13,9 @@ NS_ASSUME_NONNULL_BEGIN
 @interface LGAlertGlobalParameter : NSObject
 
 @property (nonatomic, strong) NSString *title;
-@property (nonatomic, strong) NSAttributedString *detailAttributedString;
+@property (nonatomic, strong) NSAttributedString *titleAttriString;
+@property (nonatomic, strong) NSString *detail;
+@property (nonatomic, strong) NSAttributedString *detailAttriString;
 @property (nonatomic, strong) NSString *cancelString;
 @property (nonatomic, strong) NSString *completString;
 

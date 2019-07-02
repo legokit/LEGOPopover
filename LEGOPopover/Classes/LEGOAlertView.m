@@ -28,6 +28,12 @@
         _titleLabel = [[UILabel alloc] init];
         _titleLabel.font = self.parameter.titleFont;
         _titleLabel.textColor = self.parameter.titleColor;
+        if (self.parameter.titleAttriString) {
+            _titleLabel.text = self.parameter.titleAttriString;
+        }
+        else {
+            _titleLabel.text = self.parameter.title;
+        }
     }
     return _titleLabel;
 }
@@ -38,7 +44,12 @@
         _detailLabel.font = self.parameter.detailFont;
         _detailLabel.textColor = self.parameter.detailColor;
         _detailLabel.numberOfLines = 0;
-        _detailLabel.attributedText = self.parameter.detailAttributedString;
+        if (self.parameter.detailAttriString) {
+            _detailLabel.attributedText = self.parameter.detailAttriString;
+        }
+        else {
+            _detailLabel.attributedText = self.parameter.detail;
+        }
     }
     return _detailLabel;
 }
@@ -99,11 +110,12 @@
 }
 
 - (void)cancelButtonClick:(id)sender {
+    !self.completion ? :self.completion(0);
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)completButtonClick:(id)sender {
-    !self.completion ? :self.completion();
+    !self.completion ? :self.completion(1);
     [self dismissViewControllerAnimated:YES completion:^{
         
     }];

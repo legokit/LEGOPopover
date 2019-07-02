@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "LGAlertGlobalParameter.h"
 
-typedef void(^LEGOAlertCompletion)(void);
+typedef void(^LEGOAlertCompletion)(NSInteger index);
 
 @interface LEGOAlertView : UIViewController
 

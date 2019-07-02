@@ -1,6 +1,6 @@
 PODS:
   - LEGOCoreKit/LGPrefix (0.1.0)
-  - LEGOPopover (0.1.0):
+  - LEGOPopover (0.1.1):
     - LEGOCoreKit/LGPrefix
     - Masonry
   - Masonry (1.1.0)
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   LEGOCoreKit: ad96604068561dcc6a96ded734ae637462b319a2
-  LEGOPopover: c6dfddb9264cf441ff1426d78e0117cf91523708
+  LEGOPopover: 74ab442dcc4249e365a27d66d7f9fb615d804164
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: b620cfc6527a3a4b254a4df59d5087c7a83f1a01
