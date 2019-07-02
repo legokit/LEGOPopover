@@ -121,15 +121,15 @@
     }];
 }
 
-+ (CGFloat)viewHeight {
-    return 245 + LEGOBottomMargin;
+- (CGFloat)viewHeight {
+    return self.parameter.viewHeight;
 }
 
 + (void)showInVc:(UIViewController *)vc param:(LGAlertGlobalParameter *)param completion:(LEGOAlertCompletion)completion {
     LEGOAlertView *sheetVc = [[LEGOAlertView alloc] init];
     sheetVc.parameter = param;
     sheetVc.completion = completion;
-    [vc lg_bottomPresentController:sheetVc presentedHeight:[LEGOAlertView viewHeight] completeHandle:nil];
+    [vc lg_bottomPresentController:sheetVc presentedHeight:[sheetVc viewHeight] completeHandle:nil];
 }
 
 /*
