@@ -8,7 +8,6 @@
 
 #import "UIViewController+LEGOPopover.h"
 #import <objc/runtime.h>
-#import <LEGOCoreKit/LGPrefix.h>
 
 static const char popoverAnimatorKey;
 
@@ -27,7 +26,7 @@ static const char popoverAnimatorKey;
     
     vc.modalPresentationStyle = UIModalPresentationCustom;
     vc.transitioningDelegate = self.popoverAnimator;
-    [self.popoverAnimator setBottomViewHeight:height+LEGOBottomMargin];
+    [self.popoverAnimator setBottomViewHeight:height+LEGOAlertBottomMargin];
 
     [self presentViewController:vc animated:YES completion:nil];
 }

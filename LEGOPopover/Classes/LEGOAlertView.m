@@ -9,7 +9,6 @@
 
 #import "LEGOAlertView.h"
 #import <Masonry/Masonry.h>
-#import <LEGOCoreKit/LGPrefix.h>
 #import "UIViewController+LEGOPopover.h"
 
 @interface LEGOAlertView ()
@@ -97,7 +96,7 @@
     [self.view addSubview:self.cancelButton];
     [self.cancelButton mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.offset(36);
-        make.centerY.mas_equalTo(self.view.mas_bottom).offset(-(63 + LEGOBottomMargin));
+        make.centerY.mas_equalTo(self.view.mas_bottom).offset(-(63 + LEGOAlertBottomMargin));
     }];
     
     [self.view addSubview:self.completButton];

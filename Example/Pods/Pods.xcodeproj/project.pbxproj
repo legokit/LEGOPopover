@@ -6,369 +6,304 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		CC2EF95F5AABC6E9D6E9695ACDA70B50 /* LEGOCoreKit */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 3D082BCB1CFD8C06EA33142F06C5D390 /* Build configuration list for PBXAggregateTarget "LEGOCoreKit" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = LEGOCoreKit;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		00B12FFA967E964FB41CD19C7C4AC9C8 /* LEGOPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6ABD409EA8569ADAA61D8F7396E18B /* LEGOPresentationController.m */; };
-		09E2CB7CFD7F02031C3B8CF5F72563BD /* LEGOPopoverAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = B0D1830164A692FCA64EE9B8EAB2D62B /* LEGOPopoverAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C997852C758B4CBDDF2BD29FC2F3252 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BBD182B0746AFA5A7FB9AE51B52FC0A /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DC0EA284E1EE202B69A1ACD9228BA95 /* LEGOPopover-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F67B4C8A752704E7AAF836AF250C66F /* LEGOPopover-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E38BE2F91D7A0377D562B4347E5E521 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5559CF883A4F2FF27FDED5EC5600A644 /* Foundation.framework */; };
-		124CDBBFA078AD6B07E171549E531EF3 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 97600B786CA75A86CB9FFB16035444C4 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12F6DC95D89C37D93CA98D3DC3DBB37B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 998D6634C115D4C55CB45C074E927E83 /* UIKit.framework */; };
-		207AE8DD4860C024670A3E489146E435 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5559CF883A4F2FF27FDED5EC5600A644 /* Foundation.framework */; };
-		20CD8331381313A0C7DAD56A6700A50B /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6237DA1EC807E1B95B115068E1FBB073 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		21C7A4464F7D0D7838F129D51378EAD7 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A292E0F06C201E23AA7A57C216046E /* MASViewConstraint.m */; };
-		246286920E208ED6B5AE773E70E45341 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7EABDD1A158A7C17608EAD787A8CD9 /* Masonry.framework */; };
-		25C6FE008B3B919BF4E752F6C0488276 /* LGAlertGlobalParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = C377042243343F929E3FBC093CE27C2C /* LGAlertGlobalParameter.m */; };
-		2FCEE6A75FAED04BF38AE83F5CBDCA6F /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E83F4242947B4CC4E2BC1F72F5B3FF4 /* MASConstraint.m */; };
-		3805C05E3201824D0B41B4EB620C2EAD /* LEGOAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5096C4AA99FF12B22421CEE6774535B3 /* LEGOAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40C49B123A243CBB2B0B94B1E223611A /* LEGOPopoverMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AC1B46451D98B341E298323C3CEE518 /* LEGOPopoverMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4272CC05C49CE7F0F2EAFF62EED899AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5559CF883A4F2FF27FDED5EC5600A644 /* Foundation.framework */; };
-		44DA5989016DFC4341E64BB80CDB59C4 /* Pods-LEGOPopover_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F853F4C04C85F323550AAFC6FF9E64 /* Pods-LEGOPopover_Example-dummy.m */; };
-		4F532D338ED8733711CC8C4F193A1FA1 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B7AEF6C2F5B76FE957C4A5867A5B30 /* MASViewAttribute.m */; };
-		51F09CA135D2262FD73B017572B506D7 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D9880A4EDF23166CD1A2718F6883C9E1 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5AFF61085783D74BECF534751EEAEAF0 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F7BFBDE607B0D83C55D5F04B39EE86 /* NSArray+MASAdditions.m */; };
-		5BB7436EC3713402EA53096D9F7E131D /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 63E9C61EE73647D439BE6AA790E395FE /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		610B8939C0E61817E3A757660543E355 /* Pods-LEGOPopover_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2996149C307C041190E5B863CEAF4400 /* Pods-LEGOPopover_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64C3806722CBADECD9896B15CAD8D7BC /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 09615715C6D82B844B3B601336228F62 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E54F8D6FC454B43AB82CCF83D9B1BFC /* UIViewController+LEGOPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F2DA78CC4E0C580C2EAA2EC097FF64 /* UIViewController+LEGOPopover.m */; };
-		7738F9D5754C8E87CB20D2A960687ACA /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DF433FFD1A632EE3061A7A7B19DA49 /* View+MASAdditions.m */; };
-		77439BEF6654DC0A899BDF4859B9551E /* LEGOPresentationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 90C0C3314F659569314A8FC2BAD1D657 /* LEGOPresentationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		789CDC95B012E0BF622863E9369990E0 /* Pods-LEGOPopover_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D925FCBCDA92324F61352E295F82FC /* Pods-LEGOPopover_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		838F6B6E739982E8F4C237481CDC4A54 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5CA8AD17B261B8C6765B90FAB9B19E /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B7ECE69BE0252ECCD413142D1B0638A /* LGAlertGlobalParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 73ED2FD79A396A120F9AB7C989CD9E48 /* LGAlertGlobalParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94E6797AC65AFCDB215931290F7FAD2D /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C46E71ED43CB63541676E99CA5A7B88 /* Masonry-dummy.m */; };
-		961A53DD0FA55F4E45A2A37F2C4C806B /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A39CE2D64F252AE7BC38EE50C120809 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A983F34E568D527785959FE996DF0E03 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 850E5A639E8B623823D0AEB5581BFE25 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD0A2EA28E230E9CFD1B0E467685D8EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5559CF883A4F2FF27FDED5EC5600A644 /* Foundation.framework */; };
-		AE69AA31DE1AB3C5084B636B846FCD03 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 96B825A9A982A64FECDE4DFD17E60A28 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0B0D6D5AE2B121F778E04E8B2A00469 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FDEBD5B9BBCC5A97E809C8C2DB3B47 /* MASLayoutConstraint.m */; };
-		B4EC4CE14DBFA46E3BC9333603D5CD4F /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF2DF873CC3ED3F4D31C5C8E83B07D /* MASCompositeConstraint.m */; };
-		B63338602A5526D6B8A57CF249838B0C /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = EA00561BE05E7C61B8B887CDFDCB9EBB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B700F599AF6B9925F146E45E40108677 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = FC8F072DC905926A01EC72151763E1EC /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C04D3CA9300777A2CC0A7DAA217E08A1 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = FFD3C5F317A1F1368D39A17A6DE910BB /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C078943A20BA7FD0AED8E30771A2AE49 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F10D9FF74A441C5B65E0B8A22E61E5 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C242330C57CACF4D64E08802975813F6 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8392F5679D91A05E9F609B4E9281CD35 /* ViewController+MASAdditions.m */; };
-		C94176C16BC174372E68004D9C4B7A9E /* LEGOPopover-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCB2BD85B8B8EA32266E588D3B84611 /* LEGOPopover-dummy.m */; };
-		CD414C1F0DAC6D456BD3837D22BA01EB /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 209DEC15EA4B6D9419F8FDFB2334C38F /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7D5BFB43AA9DBE5E931F559FDD7A662 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B8048C879900AE5EAD58E04059879B /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF53802F44C32D171BABCC97E7D324B8 /* Pods-LEGOPopover_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37492E4E7D0E8CB8F5F1625FE0FD19AB /* Pods-LEGOPopover_Tests-dummy.m */; };
-		E05686D64436CC156224D4E7E6423B3C /* LEGOPopoverAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CADA328D92281056FDC2D7779F82EAD /* LEGOPopoverAnimator.m */; };
-		F8E290BEDFFB00B38F74303242A72DCE /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC912F32500BDEEF7A0EF5A3F3C64BE /* MASConstraintMaker.m */; };
-		F9A32C1E21A7C4898727B5C6AAF91B53 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = CF72F45DC1FB144562B3D00FB9B1DCC6 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FDAE315D1F71547DD6D43ACC19687964 /* UIViewController+LEGOPopover.h in Headers */ = {isa = PBXBuildFile; fileRef = 41FB00BE5E294EB69FB758561732ECED /* UIViewController+LEGOPopover.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF3C4B98810F7758844DFCDDEB2F6045 /* LEGOAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A92DA7B37FC6527DB3A35EE593979E90 /* LEGOAlertView.m */; };
+		03222FF8D6A30291AF0DD93A5B185D06 /* LEGOPopover-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7C0435501650F9D7EDE69C02C333AE1 /* LEGOPopover-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03C3A5153FF226640435B9839333F7CC /* LEGOAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5096C4AA99FF12B22421CEE6774535B3 /* LEGOAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A29CC8AADF2534A5A4C491E187DDD60 /* LEGOPresentationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 90C0C3314F659569314A8FC2BAD1D657 /* LEGOPresentationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B0534F3CA6EEF8D084B5C496920A1F2 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */; };
+		0C250D7A9E4CCC3DB275539AB0DC63A8 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		101541042198292469CFC2FC0B45DDB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
+		1690B447DECDF997306C167355FE5160 /* LGAlertGlobalParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = C377042243343F929E3FBC093CE27C2C /* LGAlertGlobalParameter.m */; };
+		170EB4F20CDDC82C47C93B0F7D4AE1EE /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */; };
+		19E2BB61F2829FDC703EF2E2D55AF228 /* Pods-LEGOPopover_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F7EA6EF69C87301E0FF77B5EA5E89E /* Pods-LEGOPopover_Example-dummy.m */; };
+		1AEA4511D40EBC485944548222C5390D /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E1DFAF3F704209A0D5E6C139EF90978 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2058F458C4A55F493663017D5461953C /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */; };
+		26D3C55AB8775EE88597B9B7C81B2FBA /* LEGOPopoverAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CADA328D92281056FDC2D7779F82EAD /* LEGOPopoverAnimator.m */; };
+		27054AE78307C9FDC4DFF3DF86890B2F /* LEGOAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A92DA7B37FC6527DB3A35EE593979E90 /* LEGOAlertView.m */; };
+		2BF66039E97256C83B0C392B063ACEC5 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */; };
+		2C924DC540DBA8857665E92D9CBF47C2 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		304ECE10B0A674C21B4B3D277460AADC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF909907D9794E4C781DAC1693A7018 /* UIKit.framework */; };
+		3058BC14691466E5AC6D6D7C4DD23101 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32E6A8347B20EA9FFC5B660F313B04DC /* Pods-LEGOPopover_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EFC161A678D0909ED247E39B51C6665 /* Pods-LEGOPopover_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B62E4123075EF464D6CAC1DA84F8A2D /* LEGOPopoverAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = B0D1830164A692FCA64EE9B8EAB2D62B /* LEGOPopoverAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D3E410FBD600A7B125F4861CED352BB /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C5EB887A71E095CDC5F7292F4E0F939 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		545F3F8EF9D19C9BE3054E4AB69237E7 /* LEGOPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6ABD409EA8569ADAA61D8F7396E18B /* LEGOPresentationController.m */; };
+		55676533FB12F5C123F2FAABA728E687 /* LGAlertGlobalParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 73ED2FD79A396A120F9AB7C989CD9E48 /* LGAlertGlobalParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DC82B1CA87B2C5DB075340D5FF2CEB8 /* Pods-LEGOPopover_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 124F22190E7400D0231A3D7ECAD85306 /* Pods-LEGOPopover_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FE9AAB0148ED5971EFB7F7A0ECF34CF /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		639E57B9B8FCF37246E78F86F46EB02B /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */; };
+		66C27DFB064F5B9C45D35689D98C34BD /* UIViewController+LEGOPopover.h in Headers */ = {isa = PBXBuildFile; fileRef = 41FB00BE5E294EB69FB758561732ECED /* UIViewController+LEGOPopover.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69A57021A560B6C79DBBC6AA850C0FA0 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A1DB1B5EAD682DD048420DB125700AE /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */; };
+		6A5D71256E9F9C1905ED2E808739ED1C /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */; };
+		6EE2C476E196DB205B4D1F2B0C1157E5 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		725A126A6BB6B89595B635078EBC8E80 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		784C52CE6D91B2DA94A7E81713D0149B /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A0F74D4A8068403695265FB8A984A16 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */; };
+		7D0E388F04155591044A6D0433C6E61D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
+		817A5D77DBBABB179500309162DAC20E /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */; };
+		90E3DBDB08848039A31E20DB138CA139 /* UIViewController+LEGOPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F2DA78CC4E0C580C2EAA2EC097FF64 /* UIViewController+LEGOPopover.m */; };
+		933F7605C32AA56B265624C9CF8FF08E /* LEGOPopover-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F74D6FA0017C4505B151C223346F01 /* LEGOPopover-dummy.m */; };
+		A1E28512592437D30E6F06B0E49DEDDC /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */; };
+		A568BCA02FC808E376F9995C1BD33166 /* Pods-LEGOPopover_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43447E3484E3C7AC31A4B4DB6178F085 /* Pods-LEGOPopover_Tests-dummy.m */; };
+		AF02E7AC578C9C2F3C72836A7AD3AF99 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF849CCEFBB04513A9834EE8A52CF6DF /* LEGOPopoverMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AC1B46451D98B341E298323C3CEE518 /* LEGOPopoverMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE7C8E05136ED55A4AADFE483498958C /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */; };
+		D4B7BD8CB05D9023A02C09C7A06FFF2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
+		D93EE4BAA4439F80936DE21B94F4A174 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		E8337FA01D1D4C7756A09D551C3E2FA2 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4CAE7468B80D63D531C9D8BA81756CC /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA14F497DBAB1DC89B7023847C05ECCB /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD0DED39495FDC8D66E81361E1668471 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1316B2F1B2FCCFBFB1BAB0B1282107A9 /* PBXContainerItemProxy */ = {
+		0B9A37DD784C58C61351AFF4C6EBC6EA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8FDEDCABF96E9C2C56FF5CB256A12237;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		2F1000E91EEFDB477EEADEF72DC22ECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CB098A7F654756E5F8F9C25946E4ABA;
 			remoteInfo = "Pods-LEGOPopover_Example";
 		};
-		5101BEE661D97339F43F993CDD31E363 /* PBXContainerItemProxy */ = {
+		741FF714BF93A9F90CBA0B5F23801971 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CC2EF95F5AABC6E9D6E9695ACDA70B50;
-			remoteInfo = LEGOCoreKit;
-		};
-		51512165CA9E88F7A829BB002E3D3FFB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1E9067B4351251D47B5BBE54A7453585;
-			remoteInfo = Masonry;
-		};
-		8B15F1842B9F172C72F0906ABE89C715 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CC2EF95F5AABC6E9D6E9695ACDA70B50;
-			remoteInfo = LEGOCoreKit;
-		};
-		CAC6E2C31CEBE09703DE29022D6C4808 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1E9067B4351251D47B5BBE54A7453585;
-			remoteInfo = Masonry;
-		};
-		F0D5172AE661895B7D39F79FDBDC3902 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7E08141B5A02523D5CE937948900EA34;
+			remoteGlobalIDString = 9EDBE661560051769A4008C590A20A0F;
 			remoteInfo = LEGOPopover;
+		};
+		B8D3116D6467DFC7992C074102497EF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09615715C6D82B844B3B601336228F62 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		0B7E66E025FDC975E1FABF40449BC119 /* Pods-LEGOPopover_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGOPopover_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		13D925FCBCDA92324F61352E295F82FC /* Pods-LEGOPopover_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LEGOPopover_Tests-umbrella.h"; sourceTree = "<group>"; };
-		14DF433FFD1A632EE3061A7A7B19DA49 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		1704FB012F6DA0C56D0464C0DFD875FC /* Pods-LEGOPopover_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LEGOPopover_Tests.modulemap"; sourceTree = "<group>"; };
-		18F853F4C04C85F323550AAFC6FF9E64 /* Pods-LEGOPopover_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LEGOPopover_Example-dummy.m"; sourceTree = "<group>"; };
-		209DEC15EA4B6D9419F8FDFB2334C38F /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		21BED39E618221ABC07558ACFC199432 /* LEGOPopover-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LEGOPopover-prefix.pch"; sourceTree = "<group>"; };
-		23A292E0F06C201E23AA7A57C216046E /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		2996149C307C041190E5B863CEAF4400 /* Pods-LEGOPopover_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LEGOPopover_Example-umbrella.h"; sourceTree = "<group>"; };
-		2A7EABDD1A158A7C17608EAD787A8CD9 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		31B7AEF6C2F5B76FE957C4A5867A5B30 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		347D4680F9D8076967E08EA3EC703F91 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		35BBCAEA1EC1293AC9B7C754C05E32C6 /* LEGOPopover.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LEGOPopover.framework; path = LEGOPopover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		37492E4E7D0E8CB8F5F1625FE0FD19AB /* Pods-LEGOPopover_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LEGOPopover_Tests-dummy.m"; sourceTree = "<group>"; };
-		3F67B4C8A752704E7AAF836AF250C66F /* LEGOPopover-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LEGOPopover-umbrella.h"; sourceTree = "<group>"; };
+		002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		025EB543E67AF6218FBFEFBEC406E598 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		04B5D4C31686D288289BD10CFB63B007 /* Pods-LEGOPopover_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGOPopover_Example.release.xcconfig"; sourceTree = "<group>"; };
+		071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		0BF3075681FE18E62AFBC3D0314ADC3E /* Pods-LEGOPopover_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LEGOPopover_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0D802842931EE48C4EBE7B8E9FC5B62F /* Pods-LEGOPopover_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGOPopover_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		124F22190E7400D0231A3D7ECAD85306 /* Pods-LEGOPopover_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LEGOPopover_Example-umbrella.h"; sourceTree = "<group>"; };
+		130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F74D6FA0017C4505B151C223346F01 /* LEGOPopover-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LEGOPopover-dummy.m"; sourceTree = "<group>"; };
+		28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2CB8AC10A49AB5F82AC3E2C4FA5D3D82 /* LEGOPopover-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LEGOPopover-prefix.pch"; sourceTree = "<group>"; };
+		36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		41FB00BE5E294EB69FB758561732ECED /* UIViewController+LEGOPopover.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+LEGOPopover.h"; path = "LEGOPopover/Classes/UIViewController+LEGOPopover.h"; sourceTree = "<group>"; };
-		4C46E71ED43CB63541676E99CA5A7B88 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
-		4EDF2DF873CC3ED3F4D31C5C8E83B07D /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		43447E3484E3C7AC31A4B4DB6178F085 /* Pods-LEGOPopover_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LEGOPopover_Tests-dummy.m"; sourceTree = "<group>"; };
+		476584D5D21226D1049001A5B4E0FD2E /* Pods-LEGOPopover_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGOPopover_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4CCCAF0DCC5766AB2A580A97057C6945 /* Pods_LEGOPopover_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LEGOPopover_Example.framework; path = "Pods-LEGOPopover_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		5096C4AA99FF12B22421CEE6774535B3 /* LEGOAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LEGOAlertView.h; path = LEGOPopover/Classes/LEGOAlertView.h; sourceTree = "<group>"; };
-		53B8048C879900AE5EAD58E04059879B /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
-		5559CF883A4F2FF27FDED5EC5600A644 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		56A145517608E3634AEDF551532EE577 /* Pods-LEGOPopover_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGOPopover_Example-Info.plist"; sourceTree = "<group>"; };
-		5AF9E09BF35A6C9CEA13E3E984A96813 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
-		6237DA1EC807E1B95B115068E1FBB073 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		5406DCB2B1F67BC972ACF0D92F1A7700 /* Pods-LEGOPopover_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LEGOPopover_Tests.modulemap"; sourceTree = "<group>"; };
+		5717BD71B0A29ABC9C2E4E3621E619A9 /* Pods-LEGOPopover_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LEGOPopover_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		62008B4F7BC02E587A0C2C35026C5B71 /* LEGOPopover.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LEGOPopover.modulemap; sourceTree = "<group>"; };
+		62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		62E8E45E0FCFD329E9AA6FD461DFDB23 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		63E9C61EE73647D439BE6AA790E395FE /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		65FAE9D477109D948569300750924CFB /* Pods-LEGOPopover_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LEGOPopover_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		63674A902D0A34061A19249911B961E5 /* Pods-LEGOPopover_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LEGOPopover_Example.modulemap"; sourceTree = "<group>"; };
+		6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C7D675633C312331DEE11D56E99251D /* Pods-LEGOPopover_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGOPopover_Tests-Info.plist"; sourceTree = "<group>"; };
 		6E1A5460984C9CCB5B3921F6A996B2E2 /* LEGOPopover.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LEGOPopover.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6E83F4242947B4CC4E2BC1F72F5B3FF4 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		7008024EF5148D1DBDECDB35A9C6E6F4 /* Pods_LEGOPopover_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LEGOPopover_Tests.framework; path = "Pods-LEGOPopover_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73ED2FD79A396A120F9AB7C989CD9E48 /* LGAlertGlobalParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertGlobalParameter.h; path = LEGOPopover/Classes/LGAlertGlobalParameter.h; sourceTree = "<group>"; };
 		77F2DA78CC4E0C580C2EAA2EC097FF64 /* UIViewController+LEGOPopover.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+LEGOPopover.m"; path = "LEGOPopover/Classes/UIViewController+LEGOPopover.m"; sourceTree = "<group>"; };
-		7C3A45254EA6DF25A8BE559EFC4F0532 /* LEGOPopover.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LEGOPopover.xcconfig; sourceTree = "<group>"; };
-		82524E50E7EBE3A27C331442A8222472 /* Pods-LEGOPopover_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGOPopover_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8392F5679D91A05E9F609B4E9281CD35 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		850E5A639E8B623823D0AEB5581BFE25 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		87F8A0D81D4073DFD42D1A7AC2B1F8EF /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
-		8A39CE2D64F252AE7BC38EE50C120809 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		7EFC161A678D0909ED247E39B51C6665 /* Pods-LEGOPopover_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LEGOPopover_Tests-umbrella.h"; sourceTree = "<group>"; };
+		86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		870570EFE09B8657023DC7C42C33BE4B /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		8AC1B46451D98B341E298323C3CEE518 /* LEGOPopoverMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LEGOPopoverMacro.h; path = LEGOPopover/Classes/LEGOPopoverMacro.h; sourceTree = "<group>"; };
-		8BBD182B0746AFA5A7FB9AE51B52FC0A /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
-		8EC912F32500BDEEF7A0EF5A3F3C64BE /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
-		8FAB36F2458BD0A1165B2506190A8CAE /* Pods-LEGOPopover_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGOPopover_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
 		90C0C3314F659569314A8FC2BAD1D657 /* LEGOPresentationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LEGOPresentationController.h; path = LEGOPopover/Classes/LEGOPresentationController.h; sourceTree = "<group>"; };
-		93699DEF870650EAD5A126E8BD831FA1 /* LEGOCoreKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LEGOCoreKit.xcconfig; sourceTree = "<group>"; };
-		96B825A9A982A64FECDE4DFD17E60A28 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		97600B786CA75A86CB9FFB16035444C4 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		9794EFAF292E74EB24B76132090A56EE /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		998D6634C115D4C55CB45C074E927E83 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		9CADA328D92281056FDC2D7779F82EAD /* LEGOPopoverAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LEGOPopoverAnimator.m; path = LEGOPopover/Classes/LEGOPopoverAnimator.m; sourceTree = "<group>"; };
+		9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0F10D9FF74A441C5B65E0B8A22E61E5 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
-		A144E6C3BE85A77A17DA6B80D9BB0707 /* Pods-LEGOPopover_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGOPopover_Tests-Info.plist"; sourceTree = "<group>"; };
-		A6459E92F6B29068DA2CC322CD7C198A /* Pods-LEGOPopover_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LEGOPopover_Example-frameworks.sh"; sourceTree = "<group>"; };
-		A69588E4F0A899F9F9B9F0AC08D164C3 /* LGPrefix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGPrefix.h; path = LEGOCoreKit/Classes/LGPrefix/LGPrefix.h; sourceTree = "<group>"; };
+		A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		A275297B0DC86C3F053113F2A7D3C59F /* Pods-LEGOPopover_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGOPopover_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A8E38FA45D8DCE5F5B074925BACDA03C /* LEGOPopover.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LEGOPopover.framework; path = LEGOPopover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92DA7B37FC6527DB3A35EE593979E90 /* LEGOAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LEGOAlertView.m; path = LEGOPopover/Classes/LEGOAlertView.m; sourceTree = "<group>"; };
-		B099F035776AA0A1E000AFD5CF01BBFC /* Pods-LEGOPopover_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGOPopover_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A9AD484373D1509B91DC8DBFF16DF1B3 /* Pods-LEGOPopover_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LEGOPopover_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		B0D1830164A692FCA64EE9B8EAB2D62B /* LEGOPopoverAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LEGOPopoverAnimator.h; path = LEGOPopover/Classes/LEGOPopoverAnimator.h; sourceTree = "<group>"; };
-		B4E7F5F8CEEBB79E66F45CB929146ADF /* Pods_LEGOPopover_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LEGOPopover_Example.framework; path = "Pods-LEGOPopover_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA5CA8AD17B261B8C6765B90FAB9B19E /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		BB9BA144852167D52D48A0C75A03C477 /* LEGOPopover-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LEGOPopover-Info.plist"; sourceTree = "<group>"; };
-		C2E73E4527C20F91B6B49CAAF86B4044 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		B7F7EA6EF69C87301E0FF77B5EA5E89E /* Pods-LEGOPopover_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LEGOPopover_Example-dummy.m"; sourceTree = "<group>"; };
 		C377042243343F929E3FBC093CE27C2C /* LGAlertGlobalParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertGlobalParameter.m; path = LEGOPopover/Classes/LGAlertGlobalParameter.m; sourceTree = "<group>"; };
-		C8EC45771429923C82EF146547DF2B98 /* Pods-LEGOPopover_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGOPopover_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CF72F45DC1FB144562B3D00FB9B1DCC6 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
-		D9880A4EDF23166CD1A2718F6883C9E1 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		DB821E3ED5FDA7C9CD529B1067648B93 /* Pods-LEGOPopover_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LEGOPopover_Example.modulemap"; sourceTree = "<group>"; };
-		E46B51AF1A7FB1C2CF1CF0DE97BD400D /* LEGOPopover.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LEGOPopover.modulemap; sourceTree = "<group>"; };
-		EA00561BE05E7C61B8B887CDFDCB9EBB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		EBCB2BD85B8B8EA32266E588D3B84611 /* LEGOPopover-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LEGOPopover-dummy.m"; sourceTree = "<group>"; };
-		EEAC2D1D404D93A0E8D8590445186D78 /* Pods-LEGOPopover_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LEGOPopover_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		C7C0435501650F9D7EDE69C02C333AE1 /* LEGOPopover-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LEGOPopover-umbrella.h"; sourceTree = "<group>"; };
+		C81A7A83A39A638528EC0561BD56C74B /* Pods-LEGOPopover_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGOPopover_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		DBF42BC90C6FC1AD8DDE5AF26919291B /* LEGOPopover-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LEGOPopover-Info.plist"; sourceTree = "<group>"; };
+		DE8EEEFB99027726CD9DF79C6EEE1D42 /* LEGOPopover.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LEGOPopover.xcconfig; sourceTree = "<group>"; };
+		DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		E2E7DA226A94F5276C0074CA2D7E47DD /* Pods-LEGOPopover_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGOPopover_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		E6225045F2DF7AF603D15E0A59933930 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		EC39A9190D659396EA517E1FBD2E4722 /* Pods_LEGOPopover_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LEGOPopover_Tests.framework; path = "Pods-LEGOPopover_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF6ABD409EA8569ADAA61D8F7396E18B /* LEGOPresentationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LEGOPresentationController.m; path = LEGOPopover/Classes/LEGOPresentationController.m; sourceTree = "<group>"; };
-		F1FDEBD5B9BBCC5A97E809C8C2DB3B47 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		F2F7BFBDE607B0D83C55D5F04B39EE86 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		F8FCBD87A0E6CC5C39080B1BE563E4ED /* Pods-LEGOPopover_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGOPopover_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FC8F072DC905926A01EC72151763E1EC /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		EFF909907D9794E4C781DAC1693A7018 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		FB7BC332B39B5EE45D3DBEAA3C24EA5B /* Pods-LEGOPopover_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGOPopover_Example-Info.plist"; sourceTree = "<group>"; };
 		FDB2526519768EB3AA7F53025D4DE552 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		FFD3C5F317A1F1368D39A17A6DE910BB /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		17CE5BF467472A54489D8116189BA1D7 /* Frameworks */ = {
+		064AAEBF64C13D948E1B174A28503E26 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD0A2EA28E230E9CFD1B0E467685D8EA /* Foundation.framework in Frameworks */,
-				12F6DC95D89C37D93CA98D3DC3DBB37B /* UIKit.framework in Frameworks */,
+				FD0DED39495FDC8D66E81361E1668471 /* Foundation.framework in Frameworks */,
+				304ECE10B0A674C21B4B3D277460AADC /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3DF4B77C768B46A242DCCFCDCD3F1B0A /* Frameworks */ = {
+		7A51DDFC315CEF7B6BDBD0ABAB1707D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E38BE2F91D7A0377D562B4347E5E521 /* Foundation.framework in Frameworks */,
+				7D0E388F04155591044A6D0433C6E61D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B53144A7724C19FD848389E5128617C6 /* Frameworks */ = {
+		D990561711716E17E0D3764448797816 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				207AE8DD4860C024670A3E489146E435 /* Foundation.framework in Frameworks */,
-				246286920E208ED6B5AE773E70E45341 /* Masonry.framework in Frameworks */,
+				D4B7BD8CB05D9023A02C09C7A06FFF2C /* Foundation.framework in Frameworks */,
+				0B0534F3CA6EEF8D084B5C496920A1F2 /* Masonry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE0740D4EC6166D51CAB195E90DA5FD5 /* Frameworks */ = {
+		EA8953E572E2E99B3B7FEB80DC99BB4F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4272CC05C49CE7F0F2EAFF62EED899AD /* Foundation.framework in Frameworks */,
+				101541042198292469CFC2FC0B45DDB5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A67B98F3E892D60B632D902B45FB632 /* Pods-LEGOPopover_Example */ = {
+		240F7D4A25B4E7DA81104EF25538A39B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DB821E3ED5FDA7C9CD529B1067648B93 /* Pods-LEGOPopover_Example.modulemap */,
-				EEAC2D1D404D93A0E8D8590445186D78 /* Pods-LEGOPopover_Example-acknowledgements.markdown */,
-				F8FCBD87A0E6CC5C39080B1BE563E4ED /* Pods-LEGOPopover_Example-acknowledgements.plist */,
-				18F853F4C04C85F323550AAFC6FF9E64 /* Pods-LEGOPopover_Example-dummy.m */,
-				A6459E92F6B29068DA2CC322CD7C198A /* Pods-LEGOPopover_Example-frameworks.sh */,
-				56A145517608E3634AEDF551532EE577 /* Pods-LEGOPopover_Example-Info.plist */,
-				2996149C307C041190E5B863CEAF4400 /* Pods-LEGOPopover_Example-umbrella.h */,
-				82524E50E7EBE3A27C331442A8222472 /* Pods-LEGOPopover_Example.debug.xcconfig */,
-				B099F035776AA0A1E000AFD5CF01BBFC /* Pods-LEGOPopover_Example.release.xcconfig */,
+				62008B4F7BC02E587A0C2C35026C5B71 /* LEGOPopover.modulemap */,
+				DE8EEEFB99027726CD9DF79C6EEE1D42 /* LEGOPopover.xcconfig */,
+				23F74D6FA0017C4505B151C223346F01 /* LEGOPopover-dummy.m */,
+				DBF42BC90C6FC1AD8DDE5AF26919291B /* LEGOPopover-Info.plist */,
+				2CB8AC10A49AB5F82AC3E2C4FA5D3D82 /* LEGOPopover-prefix.pch */,
+				C7C0435501650F9D7EDE69C02C333AE1 /* LEGOPopover-umbrella.h */,
 			);
-			name = "Pods-LEGOPopover_Example";
-			path = "Target Support Files/Pods-LEGOPopover_Example";
-			sourceTree = "<group>";
-		};
-		2F3DF5D181636AD77EADB3786873A4A6 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2A7EABDD1A158A7C17608EAD787A8CD9 /* Masonry.framework */,
-				BAB1927D5856490F580749F4EDD29010 /* iOS */,
-			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LEGOPopover";
 			sourceTree = "<group>";
 		};
 		35598896F8D0F3CE0C6FF26E6E7A836D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				35BBCAEA1EC1293AC9B7C754C05E32C6 /* LEGOPopover.framework */,
-				9794EFAF292E74EB24B76132090A56EE /* Masonry.framework */,
-				B4E7F5F8CEEBB79E66F45CB929146ADF /* Pods_LEGOPopover_Example.framework */,
-				7008024EF5148D1DBDECDB35A9C6E6F4 /* Pods_LEGOPopover_Tests.framework */,
+				A8E38FA45D8DCE5F5B074925BACDA03C /* LEGOPopover.framework */,
+				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
+				4CCCAF0DCC5766AB2A580A97057C6945 /* Pods_LEGOPopover_Example.framework */,
+				EC39A9190D659396EA517E1FBD2E4722 /* Pods_LEGOPopover_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4795E7C626D9C415A0F78FE3FD3ECA60 /* Masonry */ = {
+		4590B2C9CFC58DAA3BACE101BBA43185 /* Pods-LEGOPopover_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				EA00561BE05E7C61B8B887CDFDCB9EBB /* MASCompositeConstraint.h */,
-				4EDF2DF873CC3ED3F4D31C5C8E83B07D /* MASCompositeConstraint.m */,
-				8A39CE2D64F252AE7BC38EE50C120809 /* MASConstraint.h */,
-				6E83F4242947B4CC4E2BC1F72F5B3FF4 /* MASConstraint.m */,
-				CF72F45DC1FB144562B3D00FB9B1DCC6 /* MASConstraint+Private.h */,
-				96B825A9A982A64FECDE4DFD17E60A28 /* MASConstraintMaker.h */,
-				8EC912F32500BDEEF7A0EF5A3F3C64BE /* MASConstraintMaker.m */,
-				BA5CA8AD17B261B8C6765B90FAB9B19E /* MASLayoutConstraint.h */,
-				F1FDEBD5B9BBCC5A97E809C8C2DB3B47 /* MASLayoutConstraint.m */,
-				FFD3C5F317A1F1368D39A17A6DE910BB /* Masonry.h */,
-				FC8F072DC905926A01EC72151763E1EC /* MASUtilities.h */,
-				53B8048C879900AE5EAD58E04059879B /* MASViewAttribute.h */,
-				31B7AEF6C2F5B76FE957C4A5867A5B30 /* MASViewAttribute.m */,
-				97600B786CA75A86CB9FFB16035444C4 /* MASViewConstraint.h */,
-				23A292E0F06C201E23AA7A57C216046E /* MASViewConstraint.m */,
-				850E5A639E8B623823D0AEB5581BFE25 /* NSArray+MASAdditions.h */,
-				F2F7BFBDE607B0D83C55D5F04B39EE86 /* NSArray+MASAdditions.m */,
-				09615715C6D82B844B3B601336228F62 /* NSArray+MASShorthandAdditions.h */,
-				209DEC15EA4B6D9419F8FDFB2334C38F /* NSLayoutConstraint+MASDebugAdditions.h */,
-				6237DA1EC807E1B95B115068E1FBB073 /* NSLayoutConstraint+MASDebugAdditions.m */,
-				A0F10D9FF74A441C5B65E0B8A22E61E5 /* View+MASAdditions.h */,
-				14DF433FFD1A632EE3061A7A7B19DA49 /* View+MASAdditions.m */,
-				63E9C61EE73647D439BE6AA790E395FE /* View+MASShorthandAdditions.h */,
-				D9880A4EDF23166CD1A2718F6883C9E1 /* ViewController+MASAdditions.h */,
-				8392F5679D91A05E9F609B4E9281CD35 /* ViewController+MASAdditions.m */,
-				77258169526F3C94E02589C93D74A450 /* Support Files */,
-			);
-			name = Masonry;
-			path = Masonry;
-			sourceTree = "<group>";
-		};
-		533E032D3C6DEA2A608BECB00C0454A2 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0A67B98F3E892D60B632D902B45FB632 /* Pods-LEGOPopover_Example */,
-				B19B38FF8990B145429F135AE97AE47E /* Pods-LEGOPopover_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		77258169526F3C94E02589C93D74A450 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5AF9E09BF35A6C9CEA13E3E984A96813 /* Masonry.modulemap */,
-				87F8A0D81D4073DFD42D1A7AC2B1F8EF /* Masonry.xcconfig */,
-				4C46E71ED43CB63541676E99CA5A7B88 /* Masonry-dummy.m */,
-				C2E73E4527C20F91B6B49CAAF86B4044 /* Masonry-Info.plist */,
-				347D4680F9D8076967E08EA3EC703F91 /* Masonry-prefix.pch */,
-				8BBD182B0746AFA5A7FB9AE51B52FC0A /* Masonry-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Masonry";
-			sourceTree = "<group>";
-		};
-		80091DE4E9B45518A18394FB4BD661CA /* LEGOCoreKit */ = {
-			isa = PBXGroup;
-			children = (
-				E59BBCD8F408D2E1F166DEF024CAD6F5 /* LGPrefix */,
-				8ADEF20A44496630FB4876680D9686BC /* Support Files */,
-			);
-			name = LEGOCoreKit;
-			path = LEGOCoreKit;
-			sourceTree = "<group>";
-		};
-		8ADEF20A44496630FB4876680D9686BC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				93699DEF870650EAD5A126E8BD831FA1 /* LEGOCoreKit.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/LEGOCoreKit";
-			sourceTree = "<group>";
-		};
-		B19B38FF8990B145429F135AE97AE47E /* Pods-LEGOPopover_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				1704FB012F6DA0C56D0464C0DFD875FC /* Pods-LEGOPopover_Tests.modulemap */,
-				65FAE9D477109D948569300750924CFB /* Pods-LEGOPopover_Tests-acknowledgements.markdown */,
-				0B7E66E025FDC975E1FABF40449BC119 /* Pods-LEGOPopover_Tests-acknowledgements.plist */,
-				37492E4E7D0E8CB8F5F1625FE0FD19AB /* Pods-LEGOPopover_Tests-dummy.m */,
-				A144E6C3BE85A77A17DA6B80D9BB0707 /* Pods-LEGOPopover_Tests-Info.plist */,
-				13D925FCBCDA92324F61352E295F82FC /* Pods-LEGOPopover_Tests-umbrella.h */,
-				C8EC45771429923C82EF146547DF2B98 /* Pods-LEGOPopover_Tests.debug.xcconfig */,
-				8FAB36F2458BD0A1165B2506190A8CAE /* Pods-LEGOPopover_Tests.release.xcconfig */,
+				5406DCB2B1F67BC972ACF0D92F1A7700 /* Pods-LEGOPopover_Tests.modulemap */,
+				5717BD71B0A29ABC9C2E4E3621E619A9 /* Pods-LEGOPopover_Tests-acknowledgements.markdown */,
+				E2E7DA226A94F5276C0074CA2D7E47DD /* Pods-LEGOPopover_Tests-acknowledgements.plist */,
+				43447E3484E3C7AC31A4B4DB6178F085 /* Pods-LEGOPopover_Tests-dummy.m */,
+				6C7D675633C312331DEE11D56E99251D /* Pods-LEGOPopover_Tests-Info.plist */,
+				7EFC161A678D0909ED247E39B51C6665 /* Pods-LEGOPopover_Tests-umbrella.h */,
+				476584D5D21226D1049001A5B4E0FD2E /* Pods-LEGOPopover_Tests.debug.xcconfig */,
+				A275297B0DC86C3F053113F2A7D3C59F /* Pods-LEGOPopover_Tests.release.xcconfig */,
 			);
 			name = "Pods-LEGOPopover_Tests";
 			path = "Target Support Files/Pods-LEGOPopover_Tests";
 			sourceTree = "<group>";
 		};
-		BAB1927D5856490F580749F4EDD29010 /* iOS */ = {
+		533E032D3C6DEA2A608BECB00C0454A2 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5559CF883A4F2FF27FDED5EC5600A644 /* Foundation.framework */,
-				998D6634C115D4C55CB45C074E927E83 /* UIKit.framework */,
+				F28C92CB74066AA63BFA6E86452D5BD7 /* Pods-LEGOPopover_Example */,
+				4590B2C9CFC58DAA3BACE101BBA43185 /* Pods-LEGOPopover_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		641727D7EBF7D099C436C5885417E360 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */,
+				B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */,
+				130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */,
+				1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */,
+				D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */,
+				3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */,
+				36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */,
+				115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */,
+				5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */,
+				F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */,
+				86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */,
+				0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */,
+				ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */,
+				B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */,
+				A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */,
+				F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */,
+				C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */,
+				DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */,
+				9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */,
+				896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */,
+				FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */,
+				9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */,
+				1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */,
+				071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */,
+				BDFB34A12FABD70C59DCE49920774B47 /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				641727D7EBF7D099C436C5885417E360 /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B8E2C472EF7E7FDC3762375EC6A7F033 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */,
+				EFF909907D9794E4C781DAC1693A7018 /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -383,16 +318,39 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
+		BDFB34A12FABD70C59DCE49920774B47 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				870570EFE09B8657023DC7C42C33BE4B /* Masonry.modulemap */,
+				002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */,
+				E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */,
+				025EB543E67AF6218FBFEFBEC406E598 /* Masonry-Info.plist */,
+				E6225045F2DF7AF603D15E0A59933930 /* Masonry-prefix.pch */,
+				8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				E5D866BD644057DDAD41FF9C37F8BC47 /* Development Pods */,
-				2F3DF5D181636AD77EADB3786873A4A6 /* Frameworks */,
-				ECEF47FB24F9FCE86C3D0DC0C1F3DE97 /* Pods */,
+				DF275781DF9628A2D5BF35F5D74F7BC1 /* Frameworks */,
+				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
 				35598896F8D0F3CE0C6FF26E6E7A836D /* Products */,
 				533E032D3C6DEA2A608BECB00C0454A2 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		DF275781DF9628A2D5BF35F5D74F7BC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */,
+				B8E2C472EF7E7FDC3762375EC6A7F033 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E1B506D2A027BAACF5C296DC6BC60283 /* LEGOPopover */ = {
@@ -410,18 +368,10 @@
 				41FB00BE5E294EB69FB758561732ECED /* UIViewController+LEGOPopover.h */,
 				77F2DA78CC4E0C580C2EAA2EC097FF64 /* UIViewController+LEGOPopover.m */,
 				BD5C5A58B6A1E8E9221B0AC210063AFC /* Pod */,
-				EBAF63C174CE71E69B5A9D123F20C0C1 /* Support Files */,
+				240F7D4A25B4E7DA81104EF25538A39B /* Support Files */,
 			);
 			name = LEGOPopover;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		E59BBCD8F408D2E1F166DEF024CAD6F5 /* LGPrefix */ = {
-			isa = PBXGroup;
-			children = (
-				A69588E4F0A899F9F9B9F0AC08D164C3 /* LGPrefix.h */,
-			);
-			name = LGPrefix;
 			sourceTree = "<group>";
 		};
 		E5D866BD644057DDAD41FF9C37F8BC47 /* Development Pods */ = {
@@ -432,96 +382,90 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		EBAF63C174CE71E69B5A9D123F20C0C1 /* Support Files */ = {
+		F28C92CB74066AA63BFA6E86452D5BD7 /* Pods-LEGOPopover_Example */ = {
 			isa = PBXGroup;
 			children = (
-				E46B51AF1A7FB1C2CF1CF0DE97BD400D /* LEGOPopover.modulemap */,
-				7C3A45254EA6DF25A8BE559EFC4F0532 /* LEGOPopover.xcconfig */,
-				EBCB2BD85B8B8EA32266E588D3B84611 /* LEGOPopover-dummy.m */,
-				BB9BA144852167D52D48A0C75A03C477 /* LEGOPopover-Info.plist */,
-				21BED39E618221ABC07558ACFC199432 /* LEGOPopover-prefix.pch */,
-				3F67B4C8A752704E7AAF836AF250C66F /* LEGOPopover-umbrella.h */,
+				63674A902D0A34061A19249911B961E5 /* Pods-LEGOPopover_Example.modulemap */,
+				A9AD484373D1509B91DC8DBFF16DF1B3 /* Pods-LEGOPopover_Example-acknowledgements.markdown */,
+				0D802842931EE48C4EBE7B8E9FC5B62F /* Pods-LEGOPopover_Example-acknowledgements.plist */,
+				B7F7EA6EF69C87301E0FF77B5EA5E89E /* Pods-LEGOPopover_Example-dummy.m */,
+				0BF3075681FE18E62AFBC3D0314ADC3E /* Pods-LEGOPopover_Example-frameworks.sh */,
+				FB7BC332B39B5EE45D3DBEAA3C24EA5B /* Pods-LEGOPopover_Example-Info.plist */,
+				124F22190E7400D0231A3D7ECAD85306 /* Pods-LEGOPopover_Example-umbrella.h */,
+				C81A7A83A39A638528EC0561BD56C74B /* Pods-LEGOPopover_Example.debug.xcconfig */,
+				04B5D4C31686D288289BD10CFB63B007 /* Pods-LEGOPopover_Example.release.xcconfig */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LEGOPopover";
-			sourceTree = "<group>";
-		};
-		ECEF47FB24F9FCE86C3D0DC0C1F3DE97 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				80091DE4E9B45518A18394FB4BD661CA /* LEGOCoreKit */,
-				4795E7C626D9C415A0F78FE3FD3ECA60 /* Masonry */,
-			);
-			name = Pods;
+			name = "Pods-LEGOPopover_Example";
+			path = "Target Support Files/Pods-LEGOPopover_Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		00406B785F306ED1DC505705684D7DE6 /* Headers */ = {
+		257B348268F5AD18EE96C5452A76B0F4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				789CDC95B012E0BF622863E9369990E0 /* Pods-LEGOPopover_Tests-umbrella.h in Headers */,
+				AF02E7AC578C9C2F3C72836A7AD3AF99 /* MASCompositeConstraint.h in Headers */,
+				0C250D7A9E4CCC3DB275539AB0DC63A8 /* MASConstraint+Private.h in Headers */,
+				784C52CE6D91B2DA94A7E81713D0149B /* MASConstraint.h in Headers */,
+				1AEA4511D40EBC485944548222C5390D /* MASConstraintMaker.h in Headers */,
+				F4CAE7468B80D63D531C9D8BA81756CC /* MASLayoutConstraint.h in Headers */,
+				1E1DFAF3F704209A0D5E6C139EF90978 /* Masonry-umbrella.h in Headers */,
+				69A57021A560B6C79DBBC6AA850C0FA0 /* Masonry.h in Headers */,
+				4C5EB887A71E095CDC5F7292F4E0F939 /* MASUtilities.h in Headers */,
+				6EE2C476E196DB205B4D1F2B0C1157E5 /* MASViewAttribute.h in Headers */,
+				2C924DC540DBA8857665E92D9CBF47C2 /* MASViewConstraint.h in Headers */,
+				3058BC14691466E5AC6D6D7C4DD23101 /* NSArray+MASAdditions.h in Headers */,
+				725A126A6BB6B89595B635078EBC8E80 /* NSArray+MASShorthandAdditions.h in Headers */,
+				E8337FA01D1D4C7756A09D551C3E2FA2 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				5FE9AAB0148ED5971EFB7F7A0ECF34CF /* View+MASAdditions.h in Headers */,
+				3D3E410FBD600A7B125F4861CED352BB /* View+MASShorthandAdditions.h in Headers */,
+				FA14F497DBAB1DC89B7023847C05ECCB /* ViewController+MASAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85537A5AAAC3D62850DEAC75706A7A14 /* Headers */ = {
+		75A4A3CDC81C78B87872D56112415B19 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				610B8939C0E61817E3A757660543E355 /* Pods-LEGOPopover_Example-umbrella.h in Headers */,
+				32E6A8347B20EA9FFC5B660F313B04DC /* Pods-LEGOPopover_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B24F3726ABB4B6F3FA968A46E24E68DF /* Headers */ = {
+		7AEEFEE540FA8184FB163E247CBD3234 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3805C05E3201824D0B41B4EB620C2EAD /* LEGOAlertView.h in Headers */,
-				0DC0EA284E1EE202B69A1ACD9228BA95 /* LEGOPopover-umbrella.h in Headers */,
-				09E2CB7CFD7F02031C3B8CF5F72563BD /* LEGOPopoverAnimator.h in Headers */,
-				40C49B123A243CBB2B0B94B1E223611A /* LEGOPopoverMacro.h in Headers */,
-				77439BEF6654DC0A899BDF4859B9551E /* LEGOPresentationController.h in Headers */,
-				8B7ECE69BE0252ECCD413142D1B0638A /* LGAlertGlobalParameter.h in Headers */,
-				FDAE315D1F71547DD6D43ACC19687964 /* UIViewController+LEGOPopover.h in Headers */,
+				03C3A5153FF226640435B9839333F7CC /* LEGOAlertView.h in Headers */,
+				03222FF8D6A30291AF0DD93A5B185D06 /* LEGOPopover-umbrella.h in Headers */,
+				3B62E4123075EF464D6CAC1DA84F8A2D /* LEGOPopoverAnimator.h in Headers */,
+				AF849CCEFBB04513A9834EE8A52CF6DF /* LEGOPopoverMacro.h in Headers */,
+				0A29CC8AADF2534A5A4C491E187DDD60 /* LEGOPresentationController.h in Headers */,
+				55676533FB12F5C123F2FAABA728E687 /* LGAlertGlobalParameter.h in Headers */,
+				66C27DFB064F5B9C45D35689D98C34BD /* UIViewController+LEGOPopover.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C20349A757C0CE6DA7F89860F50E4C1B /* Headers */ = {
+		CB87DE8637F2697FC8C0C728E8789023 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B63338602A5526D6B8A57CF249838B0C /* MASCompositeConstraint.h in Headers */,
-				F9A32C1E21A7C4898727B5C6AAF91B53 /* MASConstraint+Private.h in Headers */,
-				961A53DD0FA55F4E45A2A37F2C4C806B /* MASConstraint.h in Headers */,
-				AE69AA31DE1AB3C5084B636B846FCD03 /* MASConstraintMaker.h in Headers */,
-				838F6B6E739982E8F4C237481CDC4A54 /* MASLayoutConstraint.h in Headers */,
-				0C997852C758B4CBDDF2BD29FC2F3252 /* Masonry-umbrella.h in Headers */,
-				C04D3CA9300777A2CC0A7DAA217E08A1 /* Masonry.h in Headers */,
-				B700F599AF6B9925F146E45E40108677 /* MASUtilities.h in Headers */,
-				D7D5BFB43AA9DBE5E931F559FDD7A662 /* MASViewAttribute.h in Headers */,
-				124CDBBFA078AD6B07E171549E531EF3 /* MASViewConstraint.h in Headers */,
-				A983F34E568D527785959FE996DF0E03 /* NSArray+MASAdditions.h in Headers */,
-				64C3806722CBADECD9896B15CAD8D7BC /* NSArray+MASShorthandAdditions.h in Headers */,
-				CD414C1F0DAC6D456BD3837D22BA01EB /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				C078943A20BA7FD0AED8E30771A2AE49 /* View+MASAdditions.h in Headers */,
-				5BB7436EC3713402EA53096D9F7E131D /* View+MASShorthandAdditions.h in Headers */,
-				51F09CA135D2262FD73B017572B506D7 /* ViewController+MASAdditions.h in Headers */,
+				5DC82B1CA87B2C5DB075340D5FF2CEB8 /* Pods-LEGOPopover_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1E9067B4351251D47B5BBE54A7453585 /* Masonry */ = {
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A78D4D6DEC0BF2BCA7150FB3BB559AF9 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildConfigurationList = 8C8344C53F1D1B7F25D7C660BFEC66CA /* Build configuration list for PBXNativeTarget "Masonry" */;
 			buildPhases = (
-				C20349A757C0CE6DA7F89860F50E4C1B /* Headers */,
-				C30EC2830FE0CF337ACF6388899BAD92 /* Sources */,
-				17CE5BF467472A54489D8116189BA1D7 /* Frameworks */,
-				EC41203E90B9F641FBD8E87F69AE2B00 /* Resources */,
+				257B348268F5AD18EE96C5452A76B0F4 /* Headers */,
+				9E0D6AC59F73A5C367B85E99B96FA58C /* Sources */,
+				064AAEBF64C13D948E1B174A28503E26 /* Frameworks */,
+				E5120B647A3F636725E0F64713060B29 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -529,67 +473,65 @@
 			);
 			name = Masonry;
 			productName = Masonry;
-			productReference = 9794EFAF292E74EB24B76132090A56EE /* Masonry.framework */;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		41316087FEAC43B45081587672428721 /* Pods-LEGOPopover_Tests */ = {
+		5CB098A7F654756E5F8F9C25946E4ABA /* Pods-LEGOPopover_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C423AB0F243DF949BADEF60C27E418F4 /* Build configuration list for PBXNativeTarget "Pods-LEGOPopover_Tests" */;
+			buildConfigurationList = B1373031EBDECA9CEA5A7FBB1E0ED27F /* Build configuration list for PBXNativeTarget "Pods-LEGOPopover_Example" */;
 			buildPhases = (
-				00406B785F306ED1DC505705684D7DE6 /* Headers */,
-				1DE270943096CF6F52CD01A3AA51FCCA /* Sources */,
-				3DF4B77C768B46A242DCCFCDCD3F1B0A /* Frameworks */,
-				50888AA6DC934215C2A81289DA5E42E4 /* Resources */,
+				CB87DE8637F2697FC8C0C728E8789023 /* Headers */,
+				181F5D5DF6A4C91AC39CB282FBDC51C5 /* Sources */,
+				7A51DDFC315CEF7B6BDBD0ABAB1707D8 /* Frameworks */,
+				DE3FFDF7B299371EB53A1B11423CB937 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C1CB924D867B6AA09E3A0E376020D392 /* PBXTargetDependency */,
-			);
-			name = "Pods-LEGOPopover_Tests";
-			productName = "Pods-LEGOPopover_Tests";
-			productReference = 7008024EF5148D1DBDECDB35A9C6E6F4 /* Pods_LEGOPopover_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		7E08141B5A02523D5CE937948900EA34 /* LEGOPopover */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 838A923E83D47D24413EF039C6D91A0C /* Build configuration list for PBXNativeTarget "LEGOPopover" */;
-			buildPhases = (
-				B24F3726ABB4B6F3FA968A46E24E68DF /* Headers */,
-				09DAF96A29309F169F1D98C9A68912A8 /* Sources */,
-				B53144A7724C19FD848389E5128617C6 /* Frameworks */,
-				3EEA1AC6137A51632C811E9A2922E35B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DCCBEDC37A85660C0D25D2AB9A1CE53A /* PBXTargetDependency */,
-				39C45EEE4C71A8ECC14B20CAECE6351F /* PBXTargetDependency */,
-			);
-			name = LEGOPopover;
-			productName = LEGOPopover;
-			productReference = 35BBCAEA1EC1293AC9B7C754C05E32C6 /* LEGOPopover.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8FDEDCABF96E9C2C56FF5CB256A12237 /* Pods-LEGOPopover_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 953BF4D219AC9399C7A445976108B61C /* Build configuration list for PBXNativeTarget "Pods-LEGOPopover_Example" */;
-			buildPhases = (
-				85537A5AAAC3D62850DEAC75706A7A14 /* Headers */,
-				86CE24EB703A841DE7DCD54794097F7E /* Sources */,
-				DE0740D4EC6166D51CAB195E90DA5FD5 /* Frameworks */,
-				CEA9457E5BBD8C3CC92C18D5DA4602AC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0D8AE0285BBBA893631B7A7EFEB7D618 /* PBXTargetDependency */,
-				18381383823F0BC57483ADFE09A19A45 /* PBXTargetDependency */,
-				0574E798D0D8233E171A969BC6499929 /* PBXTargetDependency */,
+				32AC81342B153359BA89C85A9B6889E7 /* PBXTargetDependency */,
+				3E983AD645B6E144F8F61F8EA632FB32 /* PBXTargetDependency */,
 			);
 			name = "Pods-LEGOPopover_Example";
 			productName = "Pods-LEGOPopover_Example";
-			productReference = B4E7F5F8CEEBB79E66F45CB929146ADF /* Pods_LEGOPopover_Example.framework */;
+			productReference = 4CCCAF0DCC5766AB2A580A97057C6945 /* Pods_LEGOPopover_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9EDBE661560051769A4008C590A20A0F /* LEGOPopover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9BA905EBA27492D45FEFEBE5D7F60EB /* Build configuration list for PBXNativeTarget "LEGOPopover" */;
+			buildPhases = (
+				7AEEFEE540FA8184FB163E247CBD3234 /* Headers */,
+				F1FE4208A02FCEA4FD9F59760927FA33 /* Sources */,
+				D990561711716E17E0D3764448797816 /* Frameworks */,
+				EBD13F8DE572A2B4FDD77993D850854C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65986AD02C7277A4EC23CC245B5C8BB4 /* PBXTargetDependency */,
+			);
+			name = LEGOPopover;
+			productName = LEGOPopover;
+			productReference = A8E38FA45D8DCE5F5B074925BACDA03C /* LEGOPopover.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3F2C14873CE5BCDB8D246CE52D3FD1D /* Pods-LEGOPopover_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2304D148DA7FF71931C3754C6DA9E571 /* Build configuration list for PBXNativeTarget "Pods-LEGOPopover_Tests" */;
+			buildPhases = (
+				75A4A3CDC81C78B87872D56112415B19 /* Headers */,
+				C10FDF8ECD11BCE0893E5889E590C8FF /* Sources */,
+				EA8953E572E2E99B3B7FEB80DC99BB4F /* Frameworks */,
+				6567AB42997E867B4C1A35ACF76B80E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83C0C7370A0BD7AF48048EC0AA12F63D /* PBXTargetDependency */,
+			);
+			name = "Pods-LEGOPopover_Tests";
+			productName = "Pods-LEGOPopover_Tests";
+			productReference = EC39A9190D659396EA517E1FBD2E4722 /* Pods_LEGOPopover_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -598,12 +540,12 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -613,38 +555,37 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CC2EF95F5AABC6E9D6E9695ACDA70B50 /* LEGOCoreKit */,
-				7E08141B5A02523D5CE937948900EA34 /* LEGOPopover */,
-				1E9067B4351251D47B5BBE54A7453585 /* Masonry */,
-				8FDEDCABF96E9C2C56FF5CB256A12237 /* Pods-LEGOPopover_Example */,
-				41316087FEAC43B45081587672428721 /* Pods-LEGOPopover_Tests */,
+				9EDBE661560051769A4008C590A20A0F /* LEGOPopover */,
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
+				5CB098A7F654756E5F8F9C25946E4ABA /* Pods-LEGOPopover_Example */,
+				E3F2C14873CE5BCDB8D246CE52D3FD1D /* Pods-LEGOPopover_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3EEA1AC6137A51632C811E9A2922E35B /* Resources */ = {
+		6567AB42997E867B4C1A35ACF76B80E1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50888AA6DC934215C2A81289DA5E42E4 /* Resources */ = {
+		DE3FFDF7B299371EB53A1B11423CB937 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEA9457E5BBD8C3CC92C18D5DA4602AC /* Resources */ = {
+		E5120B647A3F636725E0F64713060B29 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC41203E90B9F641FBD8E87F69AE2B00 /* Resources */ = {
+		EBD13F8DE572A2B4FDD77993D850854C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -654,96 +595,212 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		09DAF96A29309F169F1D98C9A68912A8 /* Sources */ = {
+		181F5D5DF6A4C91AC39CB282FBDC51C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF3C4B98810F7758844DFCDDEB2F6045 /* LEGOAlertView.m in Sources */,
-				C94176C16BC174372E68004D9C4B7A9E /* LEGOPopover-dummy.m in Sources */,
-				E05686D64436CC156224D4E7E6423B3C /* LEGOPopoverAnimator.m in Sources */,
-				00B12FFA967E964FB41CD19C7C4AC9C8 /* LEGOPresentationController.m in Sources */,
-				25C6FE008B3B919BF4E752F6C0488276 /* LGAlertGlobalParameter.m in Sources */,
-				6E54F8D6FC454B43AB82CCF83D9B1BFC /* UIViewController+LEGOPopover.m in Sources */,
+				19E2BB61F2829FDC703EF2E2D55AF228 /* Pods-LEGOPopover_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1DE270943096CF6F52CD01A3AA51FCCA /* Sources */ = {
+		9E0D6AC59F73A5C367B85E99B96FA58C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF53802F44C32D171BABCC97E7D324B8 /* Pods-LEGOPopover_Tests-dummy.m in Sources */,
+				2BF66039E97256C83B0C392B063ACEC5 /* MASCompositeConstraint.m in Sources */,
+				A1E28512592437D30E6F06B0E49DEDDC /* MASConstraint.m in Sources */,
+				817A5D77DBBABB179500309162DAC20E /* MASConstraintMaker.m in Sources */,
+				7A0F74D4A8068403695265FB8A984A16 /* MASLayoutConstraint.m in Sources */,
+				639E57B9B8FCF37246E78F86F46EB02B /* Masonry-dummy.m in Sources */,
+				CE7C8E05136ED55A4AADFE483498958C /* MASViewAttribute.m in Sources */,
+				6A1DB1B5EAD682DD048420DB125700AE /* MASViewConstraint.m in Sources */,
+				6A5D71256E9F9C1905ED2E808739ED1C /* NSArray+MASAdditions.m in Sources */,
+				D93EE4BAA4439F80936DE21B94F4A174 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				170EB4F20CDDC82C47C93B0F7D4AE1EE /* View+MASAdditions.m in Sources */,
+				2058F458C4A55F493663017D5461953C /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86CE24EB703A841DE7DCD54794097F7E /* Sources */ = {
+		C10FDF8ECD11BCE0893E5889E590C8FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44DA5989016DFC4341E64BB80CDB59C4 /* Pods-LEGOPopover_Example-dummy.m in Sources */,
+				A568BCA02FC808E376F9995C1BD33166 /* Pods-LEGOPopover_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C30EC2830FE0CF337ACF6388899BAD92 /* Sources */ = {
+		F1FE4208A02FCEA4FD9F59760927FA33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4EC4CE14DBFA46E3BC9333603D5CD4F /* MASCompositeConstraint.m in Sources */,
-				2FCEE6A75FAED04BF38AE83F5CBDCA6F /* MASConstraint.m in Sources */,
-				F8E290BEDFFB00B38F74303242A72DCE /* MASConstraintMaker.m in Sources */,
-				B0B0D6D5AE2B121F778E04E8B2A00469 /* MASLayoutConstraint.m in Sources */,
-				94E6797AC65AFCDB215931290F7FAD2D /* Masonry-dummy.m in Sources */,
-				4F532D338ED8733711CC8C4F193A1FA1 /* MASViewAttribute.m in Sources */,
-				21C7A4464F7D0D7838F129D51378EAD7 /* MASViewConstraint.m in Sources */,
-				5AFF61085783D74BECF534751EEAEAF0 /* NSArray+MASAdditions.m in Sources */,
-				20CD8331381313A0C7DAD56A6700A50B /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				7738F9D5754C8E87CB20D2A960687ACA /* View+MASAdditions.m in Sources */,
-				C242330C57CACF4D64E08802975813F6 /* ViewController+MASAdditions.m in Sources */,
+				27054AE78307C9FDC4DFF3DF86890B2F /* LEGOAlertView.m in Sources */,
+				933F7605C32AA56B265624C9CF8FF08E /* LEGOPopover-dummy.m in Sources */,
+				26D3C55AB8775EE88597B9B7C81B2FBA /* LEGOPopoverAnimator.m in Sources */,
+				545F3F8EF9D19C9BE3054E4AB69237E7 /* LEGOPresentationController.m in Sources */,
+				1690B447DECDF997306C167355FE5160 /* LGAlertGlobalParameter.m in Sources */,
+				90E3DBDB08848039A31E20DB138CA139 /* UIViewController+LEGOPopover.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0574E798D0D8233E171A969BC6499929 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 1E9067B4351251D47B5BBE54A7453585 /* Masonry */;
-			targetProxy = 51512165CA9E88F7A829BB002E3D3FFB /* PBXContainerItemProxy */;
-		};
-		0D8AE0285BBBA893631B7A7EFEB7D618 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LEGOCoreKit;
-			target = CC2EF95F5AABC6E9D6E9695ACDA70B50 /* LEGOCoreKit */;
-			targetProxy = 8B15F1842B9F172C72F0906ABE89C715 /* PBXContainerItemProxy */;
-		};
-		18381383823F0BC57483ADFE09A19A45 /* PBXTargetDependency */ = {
+		32AC81342B153359BA89C85A9B6889E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LEGOPopover;
-			target = 7E08141B5A02523D5CE937948900EA34 /* LEGOPopover */;
-			targetProxy = F0D5172AE661895B7D39F79FDBDC3902 /* PBXContainerItemProxy */;
+			target = 9EDBE661560051769A4008C590A20A0F /* LEGOPopover */;
+			targetProxy = 741FF714BF93A9F90CBA0B5F23801971 /* PBXContainerItemProxy */;
 		};
-		39C45EEE4C71A8ECC14B20CAECE6351F /* PBXTargetDependency */ = {
+		3E983AD645B6E144F8F61F8EA632FB32 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
-			target = 1E9067B4351251D47B5BBE54A7453585 /* Masonry */;
-			targetProxy = CAC6E2C31CEBE09703DE29022D6C4808 /* PBXContainerItemProxy */;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = B8D3116D6467DFC7992C074102497EF6 /* PBXContainerItemProxy */;
 		};
-		C1CB924D867B6AA09E3A0E376020D392 /* PBXTargetDependency */ = {
+		65986AD02C7277A4EC23CC245B5C8BB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 0B9A37DD784C58C61351AFF4C6EBC6EA /* PBXContainerItemProxy */;
+		};
+		83C0C7370A0BD7AF48048EC0AA12F63D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LEGOPopover_Example";
-			target = 8FDEDCABF96E9C2C56FF5CB256A12237 /* Pods-LEGOPopover_Example */;
-			targetProxy = 1316B2F1B2FCCFBFB1BAB0B1282107A9 /* PBXContainerItemProxy */;
-		};
-		DCCBEDC37A85660C0D25D2AB9A1CE53A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LEGOCoreKit;
-			target = CC2EF95F5AABC6E9D6E9695ACDA70B50 /* LEGOCoreKit */;
-			targetProxy = 5101BEE661D97339F43F993CDD31E363 /* PBXContainerItemProxy */;
+			target = 5CB098A7F654756E5F8F9C25946E4ABA /* Pods-LEGOPopover_Example */;
+			targetProxy = 2F1000E91EEFDB477EEADEF72DC22ECA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+		07872326C5CD1C833ACF4C9EDB198B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE8EEEFB99027726CD9DF79C6EEE1D42 /* LEGOPopover.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LEGOPopover/LEGOPopover-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LEGOPopover/LEGOPopover-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LEGOPopover/LEGOPopover.modulemap";
+				PRODUCT_MODULE_NAME = LEGOPopover;
+				PRODUCT_NAME = LEGOPopover;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2113A259ADB2E38F3670327C9F725512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE8EEEFB99027726CD9DF79C6EEE1D42 /* LEGOPopover.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LEGOPopover/LEGOPopover-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LEGOPopover/LEGOPopover-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LEGOPopover/LEGOPopover.modulemap";
+				PRODUCT_MODULE_NAME = LEGOPopover;
+				PRODUCT_NAME = LEGOPopover;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2306E54790F1644106A25EEB04A9B92B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C81A7A83A39A638528EC0561BD56C74B /* Pods-LEGOPopover_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LEGOPopover_Example/Pods-LEGOPopover_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LEGOPopover_Example/Pods-LEGOPopover_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		38D9C9174F3C740CE6C7EF7650B60131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A275297B0DC86C3F053113F2A7D3C59F /* Pods-LEGOPopover_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LEGOPopover_Tests/Pods-LEGOPopover_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LEGOPopover_Tests/Pods-LEGOPopover_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -798,15 +855,16 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		15178902731F3D30AF454580C4CBEC98 /* Debug */ = {
+		68E6AE3321EF84A479508E62F055FDB4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C3A45254EA6DF25A8BE559EFC4F0532 /* LEGOPopover.xcconfig */;
+			baseConfigurationReference = 04B5D4C31686D288289BD10CFB63B007 /* Pods-LEGOPopover_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -816,24 +874,27 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LEGOPopover/LEGOPopover-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LEGOPopover/LEGOPopover-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-LEGOPopover_Example/Pods-LEGOPopover_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LEGOPopover/LEGOPopover.modulemap";
-				PRODUCT_MODULE_NAME = LEGOPopover;
-				PRODUCT_NAME = LEGOPopover;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LEGOPopover_Example/Pods-LEGOPopover_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -892,136 +953,14 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		489BE4F25A3D1086F2736410A46A6A4A /* Debug */ = {
+		8344B98D9579E8B8EAB1FB9F456539FE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93699DEF870650EAD5A126E8BD831FA1 /* LEGOCoreKit.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		624314640D2ACDF3FF015F7025248C8A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87F8A0D81D4073DFD42D1A7AC2B1F8EF /* Masonry.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		661BEEEE87BF7B5C8445D53AFF9B3EAD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C3A45254EA6DF25A8BE559EFC4F0532 /* LEGOPopover.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LEGOPopover/LEGOPopover-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LEGOPopover/LEGOPopover-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LEGOPopover/LEGOPopover.modulemap";
-				PRODUCT_MODULE_NAME = LEGOPopover;
-				PRODUCT_NAME = LEGOPopover;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		80BB01CC6CF31841E086740F0AC0D27E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B099F035776AA0A1E000AFD5CF01BBFC /* Pods-LEGOPopover_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LEGOPopover_Example/Pods-LEGOPopover_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LEGOPopover_Example/Pods-LEGOPopover_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		92E6C8BEF7CFC2C6EE377F31387EF62D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93699DEF870650EAD5A126E8BD831FA1 /* LEGOCoreKit.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		988222C31AF16816911DC0F72FA71842 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8EC45771429923C82EF146547DF2B98 /* Pods-LEGOPopover_Tests.debug.xcconfig */;
+			baseConfigurationReference = 476584D5D21226D1049001A5B4E0FD2E /* Pods-LEGOPopover_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1052,42 +991,9 @@
 			};
 			name = Debug;
 		};
-		B7359C3B8FB25BF68AD838BE6913D11A /* Debug */ = {
+		B08BA670388736787FDCCB2DFEF992CB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82524E50E7EBE3A27C331442A8222472 /* Pods-LEGOPopover_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LEGOPopover_Example/Pods-LEGOPopover_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LEGOPopover_Example/Pods-LEGOPopover_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CA08677651917C74D0C9541ABD91E35F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87F8A0D81D4073DFD42D1A7AC2B1F8EF /* Masonry.xcconfig */;
+			baseConfigurationReference = 002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1116,11 +1022,10 @@
 			};
 			name = Release;
 		};
-		F64D8D4327BF7979726248932EBF3093 /* Release */ = {
+		D1307061F7DA9088D3F70C42B1795B0F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FAB36F2458BD0A1165B2506190A8CAE /* Pods-LEGOPopover_Tests.release.xcconfig */;
+			baseConfigurationReference = 002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1130,34 +1035,31 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LEGOPopover_Tests/Pods-LEGOPopover_Tests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LEGOPopover_Tests/Pods-LEGOPopover_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3D082BCB1CFD8C06EA33142F06C5D390 /* Build configuration list for PBXAggregateTarget "LEGOCoreKit" */ = {
+		2304D148DA7FF71931C3754C6DA9E571 /* Build configuration list for PBXNativeTarget "Pods-LEGOPopover_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				489BE4F25A3D1086F2736410A46A6A4A /* Debug */,
-				92E6C8BEF7CFC2C6EE377F31387EF62D /* Release */,
+				8344B98D9579E8B8EAB1FB9F456539FE /* Debug */,
+				38D9C9174F3C740CE6C7EF7650B60131 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1165,44 +1067,35 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
-				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		838A923E83D47D24413EF039C6D91A0C /* Build configuration list for PBXNativeTarget "LEGOPopover" */ = {
+		8C8344C53F1D1B7F25D7C660BFEC66CA /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				15178902731F3D30AF454580C4CBEC98 /* Debug */,
-				661BEEEE87BF7B5C8445D53AFF9B3EAD /* Release */,
+				D1307061F7DA9088D3F70C42B1795B0F /* Debug */,
+				B08BA670388736787FDCCB2DFEF992CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		953BF4D219AC9399C7A445976108B61C /* Build configuration list for PBXNativeTarget "Pods-LEGOPopover_Example" */ = {
+		B1373031EBDECA9CEA5A7FBB1E0ED27F /* Build configuration list for PBXNativeTarget "Pods-LEGOPopover_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B7359C3B8FB25BF68AD838BE6913D11A /* Debug */,
-				80BB01CC6CF31841E086740F0AC0D27E /* Release */,
+				2306E54790F1644106A25EEB04A9B92B /* Debug */,
+				68E6AE3321EF84A479508E62F055FDB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A78D4D6DEC0BF2BCA7150FB3BB559AF9 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+		B9BA905EBA27492D45FEFEBE5D7F60EB /* Build configuration list for PBXNativeTarget "LEGOPopover" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				624314640D2ACDF3FF015F7025248C8A /* Debug */,
-				CA08677651917C74D0C9541ABD91E35F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C423AB0F243DF949BADEF60C27E418F4 /* Build configuration list for PBXNativeTarget "Pods-LEGOPopover_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				988222C31AF16816911DC0F72FA71842 /* Debug */,
-				F64D8D4327BF7979726248932EBF3093 /* Release */,
+				2113A259ADB2E38F3670327C9F725512 /* Debug */,
+				07872326C5CD1C833ACF4C9EDB198B28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

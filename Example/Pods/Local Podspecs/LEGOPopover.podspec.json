@@ -20,9 +20,6 @@
   },
   "source_files": "LEGOPopover/Classes/**/*",
   "dependencies": {
-    "LEGOCoreKit/LGPrefix": [
-
-    ],
     "Masonry": [
 
     ]

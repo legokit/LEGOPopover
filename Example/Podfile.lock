@@ -1,7 +1,5 @@
 PODS:
-  - LEGOCoreKit/LGPrefix (0.1.0)
   - LEGOPopover (0.1.1):
-    - LEGOCoreKit/LGPrefix
     - Masonry
   - Masonry (1.1.0)
 
@@ -11,18 +9,15 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Masonry
-  https://github.com/legokit/Specs.git:
-    - LEGOCoreKit
 
 EXTERNAL SOURCES:
   LEGOPopover:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LEGOCoreKit: ad96604068561dcc6a96ded734ae637462b319a2
-  LEGOPopover: e475e50dd21eda371a9be9bfa84c8f04787b3a3a
+  LEGOPopover: 27aa3502dabf5c942f072972ee116425da4c424a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: 5c917047d7bea15bbe21eec5419f59a01f13de55
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.7.4
