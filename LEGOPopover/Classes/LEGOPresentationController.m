@@ -27,7 +27,12 @@
 - (UIView *)coverView{
     if (!_coverView) {
         _coverView = [[UIView alloc] initWithFrame:self.containerView.bounds];
-        _coverView.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.75f];
+        if (self.coverColor) {
+            _coverView.backgroundColor = self.coverColor;
+        }
+        else {
+            _coverView.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.75f];
+        }
         UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(coverViewClick)];
         [_coverView addGestureRecognizer:tap];
     }

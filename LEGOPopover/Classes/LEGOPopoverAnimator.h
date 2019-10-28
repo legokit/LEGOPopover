@@ -11,9 +11,11 @@
 
 @interface LEGOPopoverAnimator : NSObject<UIViewControllerAnimatedTransitioning,UIViewControllerTransitioningDelegate>
 @property(nonatomic,assign)CGRect       presentedFrame;
+
 + (instancetype)popoverAnimatorWithStyle:(LEGOPopoverType )popoverType completeHandle:(LEGOCompleteHandle)completeHandle;
 
 - (void)setCenterViewSize:(CGSize)size;
 - (void)setBottomViewHeight:(CGFloat)height;
+- (void)setCoverViewColor:(UIColor *)color;
 
 @end

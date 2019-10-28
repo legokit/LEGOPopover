@@ -12,8 +12,10 @@
 @interface LEGOPresentationController : UIPresentationController
 @property(nonatomic,assign)CGSize           presentedSize;
 @property(nonatomic,assign)CGFloat          presentedHeight;
+@property(nonatomic,strong)UIColor          *coverColor;
 
 @property(nonatomic,strong)UIView           *coverView;
+
 @property(nonatomic,assign)LEGOPopoverType    popoverType;
 
 @end

@@ -7,8 +7,8 @@
 //
 
 #import "LEGOPopoverAnimator.h"
-#import "LEGOPresentationController.h"
 #import "LEGOPopoverMacro.h"
+#import "LEGOPresentationController.h"
 
 #define kAnimationDuration 0.3
 
@@ -17,11 +17,13 @@
     BOOL                       _isPresented;
     CGSize                     _presentedSize;
 }
-@property(nonatomic,strong)LEGOPresentationController  *presentationController;
 @property(nonatomic,copy)  LEGOCompleteHandle           completeHandle;
 @property(nonatomic,assign)LEGOPopoverType              popoverType;
 @property(nonatomic,assign)CGFloat                    presentedHeight;
 
+@property(nonatomic,strong)UIColor          *coverColor;
+
+@property(nonatomic,strong)LEGOPresentationController  *presentationController;
 
 @end
 
@@ -43,6 +45,7 @@
     }else{
         presentation.presentedHeight = _presentedHeight;
     }
+    presentation.coverColor = _coverColor;
     self.presentationController = presentation;
     return presentation;
 }
@@ -135,6 +138,10 @@
 
 - (void)setCenterViewSize:(CGSize)size{
     _presentedSize = size;
+}
+
+- (void)setCoverViewColor:(UIColor *)color {
+    _coverColor = color;
 }
 
 @end
